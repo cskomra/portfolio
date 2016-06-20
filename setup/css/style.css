@@ -37,7 +37,13 @@ a {
     border-radius: 18px;
 }
 
-@media screen and (max-width: 520px) {
+.welcome-text {
+    position: absolute;
+    top: 5em;
+    left: 5em;
+}
+
+@media screen and (max-width: 550px) {
     .title-super {
         font-size: 40px;
         font-weight: 200;
