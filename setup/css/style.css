@@ -31,5 +31,16 @@ a {
 }
 
 .title-logo {
+    margin: 0 auto;
     margin-top: 20px;
+    border: 5px solid gray;
+    border-radius: 18px;
+}
+
+@media screen and (max-width: 520px) {
+    .title-super {
+        font-size: 40px;
+        font-weight: 200;
+    }
+
 }
