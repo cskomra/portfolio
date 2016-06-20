@@ -50,3 +50,12 @@ a {
     }
 
 }
+
+@media screen and (min-width: 1200px) {
+    .title-super {
+        text-align: right;
+    }
+    .sub-title-super {
+        text-align: right;
+    }
+}
