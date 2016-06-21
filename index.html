@@ -9,18 +9,15 @@
         <title>Portfolio</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-
         <link rel="stylesheet" href="css/style.min.css">
 
     </head>
     <body>
         <div class="container">
-            <div class="row">
+            <header class="row">
                 <div class="col-md-2">
                     <img src="img/connie05.jpg" class="img-responsive title-logo" alt="logo">
                 </div>
@@ -28,41 +25,38 @@
                     <h1 class="title-super text-thin">Connie Skomra</h1>
                     <h4 class="sub-title-super">Full Stack Engineer</h4>
                 </div>
-            </div>
-            <div class="row">
+            </header>
+            <separator class="row">
                 <div class="col-md-12">
                     <hr>
                 </div>
-            </div>
-            <div class="row">
+            </separator>
+            <banner class="row">
                 <div class="col-md-12">
                     <img src="img/stones_large.jpg" class="img-responsive" alt="">
                 </div>
-            </div>
-            <div class="row">
+            </banner>
+            <sectiontitle class="row">
                 <div class="col-md-12">
                     <h2 class="text-muted"><strong>Featured Work</strong></h2>
                 </div>
-            </div>
+            </sectiontitle>
             <section class="featured-work">
                 <div class="row text-center">
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 work-section">
                         <img src="img/bugevaders_cropped.jpg" alt="app image" id="bug-evaders"
                         class="img-responsive project-img" data-toggle="modal" data-target="#myModal-1">
-                        <h3 class="display-4"><a href="http://cskomra.github.io/projects/arcadegame/index.html" target="_blank"><strong>Bug Evaders</strong></a></h3>
-                        <h4><a href="https://github.com/cskomra/frontend-nanodegree-arcade-game.git" target="_blank">Github</a></h4>
+                        <h3 class="display-4 work-title"><a href="https://github.com/cskomra/frontend-nanodegree-arcade-game" target="_blank">Bug Evaders</a></h3>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 work-section">
                         <img src="img/mediacenter_cropped.jpg" alt="app image"
                         class="img-responsive project-img" data-toggle="modal" data-target="#myModal-2">
-                        <h3 class="display-4"><strong>Media Center</strong></h3>
-                        <h4><a href="https://github.com/cskomra/cskomra.github.io/tree/master/projects/mediacenter" target="_blank">Github</a></h4>
+                        <h3 class="display-4 work-title"><a href="https://github.com/cskomra/cskomra.github.io/tree/master/projects/mediacenter" target="_blank">Media Center</a></h3>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 work-section">
                         <img src="img/itsnearby_cropped.jpg" alt="app image"
                         class="img-responsive project-img" data-toggle="modal" data-target="#myModal-3">
-                        <h3 class="display-4"><a href="http://cskomra.github.io/projects/neighborhood-map/index.html" target="_blank"><strong>Neighborhood Map</strong></a></h3>
-                        <h4><a href="http://cskomra.github.io/projects/neighborhood-map/index.html" target="_blank">Github</a></h4>
+                        <h3 class="display-4 work-title"><a href="https://github.com/cskomra/neighborhood-map" target="_blank">Neighborhood Map</a></h3>
                     </div>
                 </div>
             </section>
@@ -73,13 +67,14 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
                         <h4 class="modal-title" id="myModalLabel">Bug Evaders Arcade Game</h4>
                     </div>
                     <div class="modal-body">
                             <p>
                                 <img class="img-responsive modal-img" src="img/char-boy.png">
                                 This game is much like Frogger in that, as a player, you are trying to cross a sidewalk full of bugs in order to get to the other side. Making it to the other side gets you to the next level. Each one of the three levels has a unique set of bugs that travels at different speeds, making the game more challenging.
+                                Click <a href="http://cskomra.github.io/projects/arcadegame/index.html" target="_blank">here</a> to try it out.
                             </p>
                     </div>
                     <div class="modal-footer">
@@ -93,7 +88,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
                         <h4 class="modal-title" id="myModalLabel">Media Center</h4>
                     </div>
                     <div class="modal-body">
@@ -113,13 +108,14 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
                         <h4 class="modal-title" id="myModalLabel">Neighborhood Map</h4>
                     </div>
                     <div class="modal-body">
                         <p>
                             <img class="img-responsive modal-img" src="img/map-marker_resized.png">
                             This ia a single-page web application built using the Knockout framework.  It displays a Google Map of an area with various points of interest. Users can search all included landmarks.  When a marker is selected, additional information about the selected landmark is presented from either FourSquare or Wikipedia.
+                            Click <a href="http://cskomra.github.io/projects/neighborhood-map/index.html" target="_blank">here</a> to try it out.
                         </p>
                     </div>
                     <div class="modal-footer">

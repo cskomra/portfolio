@@ -5,7 +5,7 @@ body {
 }
 
 hr {
-    background-color: #7d97ad;
+    background-color: gray;
     height: 5px;
 }
 
@@ -14,14 +14,12 @@ a {
 
 }
 
-
-
 .project-img {
     width: 100%;
 }
 
 .text-muted {
-    color: #7d97ad;
+    color: #4c4c4c;
 }
 
 .text-thin {
@@ -47,6 +45,26 @@ a {
 
 .modal-img {
     margin: 0 0 20px 20px;
+}
+
+.work-section {
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+    border-bottom: thin solid gray;
+}
+
+.work-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div.row.text-center {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p a {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 550px) {
