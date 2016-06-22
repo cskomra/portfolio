@@ -25,6 +25,7 @@ a {
 
 .text-muted {
     color: #4c4c4c;
+    font-weight: bold;
 }
 
 .text-thin {
@@ -76,6 +77,9 @@ p a {
     .title-super {
         font-size: 40px;
         font-weight: 200;
+    }
+    .text-muted {
+        text-align: center;
     }
 }
 
