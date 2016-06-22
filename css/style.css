@@ -4,9 +4,14 @@ body {
     font-weight: 300;
 }
 
-hr {
+.banner_top {
     background-color: gray;
     height: 5px;
+}
+
+.banner_btm {
+    background-color: gray;
+    height: 2px;
 }
 
 a {
